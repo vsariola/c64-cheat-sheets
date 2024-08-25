@@ -1,0 +1,89 @@
+name: Create PDF
+
+on:
+  push:
+    branches:
+      - master
+      - dev
+    tags:
+      - 'v*'
+  pull_request:
+    branches:
+      - master
+      - dev
+
+jobs:
+  create_release:
+    name: Create release
+    runs-on: ubuntu-latest
+    # Note this. We are going to use that in further jobs.
+    outputs:
+      upload_url: ${{ steps.create_release.outputs.upload_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: ${{ github.ref_name }}
+          body_path: CHANGELOG.md
+          draft: false
+          prerelease: false
+        if: startsWith(github.ref, 'refs/tags/')
+  convert_pdf:
+    needs: create_release # we need to know the upload URL
+    runs-on: ubuntu-latest
+    steps:
+    - uses: benjlevesque/short-sha@v3.0
+      id: short-sha
+      with:
+        length: 7
+    - uses: actions/checkout@v4
+    - name: Install Noto Sans Math Font
+      run: |
+        wget https://raw.githubusercontent.com/google/fonts/main/ofl/notosansmath/NotoSansMath-Regular.ttf
+        mv NotoSansMath-Regular.ttf /usr/share/fonts/
+    - name: Install Jost Font
+      run: |
+        wget https://raw.githubusercontent.com/google/fonts/main/ofl/jost/Jost%5Bwght%5D.ttf
+        mv Jost[wght].ttf /usr/share/fonts/
+    - name: Rebuild font cache
+      run: fc-cache -fv
+    - name: Install Inkscape
+      run: sudo apt-get install inkscape
+    - name: Convert SVG to PDF
+      run: |
+        inkscape --without-gui --export-type=pdf --export-filename=6510_assembly_instructions.pdf 6510_assembly_instructions.svg
+    - name: Upload binary
+      uses: actions/upload-artifact@v4
+      with:
+        name: 6510_assembly_instructions_${{ steps.short-sha.outputs.sha }}.pdf
+        path: 6510_assembly_instructions.pdf
+  upload_release_asset:
+    needs: [create_release, convert_pdf]
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/')
+    steps:
+    - uses: benjlevesque/short-sha@v2.2
+      id: short-sha
+      with:
+        length: 7
+    - name: Download artifacts
+      uses: actions/download-artifact@v4
+      with:
+        pattern: 6510_assembly_instructions_${{ steps.short-sha.outputs.sha }}.pdf
+        path: pdfs
+        merge-multiple: true
+    - run: ls -R pdfs
+    - name: Upload release assets
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ needs.create_release.outputs.upload_url }}
+        asset_name: 6510_assembly_instructions.pdf
+        asset_path: ./pdfs/6510_assembly_instructions.pdf
+        asset_content_type: application/pdf
