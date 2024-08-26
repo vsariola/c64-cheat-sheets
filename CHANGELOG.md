@@ -3,12 +3,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## v0.20
+## v0.2.0
 ### Added
-- More illegals: illegal nops, SBC and JAMs
+- More illegals: illegal NOPs, JAMs and SBC2
 
 ### Changed
-- Use only open source fonts (Jost and Noto Sans Math)
+- Use only open source fonts: Jost and Noto Sans Math
 
 ## v0.1.0
 ### Added
