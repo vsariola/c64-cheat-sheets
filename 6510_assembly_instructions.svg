@@ -3,7 +3,7 @@
 
 <svg
    sodipodi:docname="6510_assembly_instructions.svg"
-   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    id="svg8"
    version="1.1"
    viewBox="0 0 210 296.99999"
@@ -40,11 +40,11 @@
      inkscape:window-height="1129"
      inkscape:window-width="1920"
      showgrid="false"
-     inkscape:current-layer="svg8"
+     inkscape:current-layer="layer6"
      inkscape:document-units="mm"
-     inkscape:cy="441.73454"
-     inkscape:cx="471.22034"
-     inkscape:zoom="7.240774"
+     inkscape:cy="951.95305"
+     inkscape:cx="165.23436"
+     inkscape:zoom="1.2800001"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -877,16 +877,16 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.04611px;line-height:100%;font-family:Jost;-inkscape-font-specification:Jost;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;opacity:1;fill:#7f7f7f;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        x="9.7958803"
-       y="265.95779"
+       y="263.91168"
        id="text29120"><tspan
          sodipodi:role="line"
          x="9.7958803"
-         y="265.95779"
+         y="263.91168"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.04611px;line-height:100%;font-family:Jost;-inkscape-font-specification:Jost;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;fill:#7f7f7f;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="tspan110">† B is always 1, except while IRQ/NMI pushes P onto stack</tspan><tspan
          sodipodi:role="line"
          x="9.7958803"
-         y="268.02087"
+         y="265.97476"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.04611px;line-height:100%;font-family:Jost;-inkscape-font-specification:Jost;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;fill:#7f7f7f;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="tspan118"><tspan
    style="font-size:2.11667px;fill:#f63240"
@@ -903,9 +903,11 @@
    id="tspan105">$</tspan>00,X)</tspan>: indexing wraps in zero page</tspan><tspan
          sodipodi:role="line"
          x="9.7958803"
-         y="270.11777"
+         y="268.07166"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.04611px;line-height:100%;font-family:Jost;-inkscape-font-specification:Jost;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;fill:#7f7f7f;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="tspan108"><tspan
+         id="tspan9"><tspan
+   style="fill:#f63240"
+   id="tspan4">($00,X)</tspan>, <tspan
    style="font-size:2.11667px;fill:#f63240"
    id="tspan124">(<tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math'"
@@ -913,12 +915,17 @@
    style="font-size:2.11667px;fill:#f63240"
    id="tspan125">(<tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math'"
-   id="tspan127">$</tspan>0000)</tspan>: MSB of address read from same page as LSB</tspan><tspan
+   id="tspan127">$</tspan>0000)</tspan>: MSB of address read from same</tspan><tspan
          sodipodi:role="line"
          x="9.7958803"
-         y="272.19772"
+         y="270.15161"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.04611px;line-height:100%;font-family:Jost;-inkscape-font-specification:Jost;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;fill:#7f7f7f;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="tspan117" /><tspan
+         id="tspan79">page as LSB</tspan><tspan
+         sodipodi:role="line"
+         x="9.7958803"
+         y="272.19769"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.04611px;line-height:100%;font-family:Jost;-inkscape-font-specification:Jost;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;fill:#7f7f7f;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="tspan102" /><tspan
          sodipodi:role="line"
          x="9.7958803"
          y="274.2438"
@@ -956,78 +963,78 @@
          id="tspan2085">http://codebase64.org/doku.php?id=base:6502_6510_coding</tspan></text>
     <text
        id="text4487-1-3-2-9-3-0-7-5-1-2-5-7"
-       y="240.41594"
+       y="240.18913"
        x="12.520033"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';fill:#7f7f7f;fill-opacity:1;stroke-width:0.264583px"
-         y="240.41594"
+         y="240.18913"
          x="12.520033"
          id="tspan4485-3-5-9-5-9-6-0-5-1-0-7-8"
          sodipodi:role="line">bit 0</tspan></text>
     <text
        id="text4487-1-3-2-9-3-0-7-5-1-2-5-7-4"
-       y="243.95236"
+       y="243.49878"
        x="12.697833"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';fill:#7f7f7f;fill-opacity:1;stroke-width:0.264583px"
-         y="243.95236"
+         y="243.49878"
          x="12.697833"
          id="tspan4485-3-5-9-5-9-6-0-5-1-0-7-8-6"
          sodipodi:role="line">bit 1</tspan></text>
     <text
        id="text4487-1-3-2-9-3-0-7-5-1-2-5-7-3"
-       y="247.4888"
+       y="246.80841"
        x="12.523208"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';fill:#7f7f7f;fill-opacity:1;stroke-width:0.264583px"
-         y="247.4888"
+         y="246.80841"
          x="12.523208"
          id="tspan4485-3-5-9-5-9-6-0-5-1-0-7-8-1"
          sodipodi:role="line">bit 2</tspan></text>
     <text
        id="text4487-1-3-2-9-3-0-7-5-1-2-5-7-1"
-       y="251.02524"
+       y="250.11806"
        x="12.5285"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';fill:#7f7f7f;fill-opacity:1;stroke-width:0.264583px"
-         y="251.02524"
+         y="250.11806"
          x="12.5285"
          id="tspan4485-3-5-9-5-9-6-0-5-1-0-7-8-0"
          sodipodi:role="line">bit 3</tspan></text>
     <text
        id="text4487-1-3-2-9-3-0-7-5-1-2-5-7-2"
-       y="254.56166"
+       y="253.42769"
        x="12.489341"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';fill:#7f7f7f;fill-opacity:1;stroke-width:0.264583px"
-         y="254.56166"
+         y="253.42769"
          x="12.489341"
          id="tspan4485-3-5-9-5-9-6-0-5-1-0-7-8-4"
          sodipodi:role="line">bit 4</tspan></text>
     <text
        id="text4487-1-3-2-9-3-0-7-5-1-2-5-7-9"
-       y="258.09805"
+       y="256.73734"
        x="12.517916"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';fill:#7f7f7f;fill-opacity:1;stroke-width:0.264583px"
-         y="258.09805"
+         y="256.73734"
          x="12.517916"
          id="tspan4485-3-5-9-5-9-6-0-5-1-0-7-8-8"
          sodipodi:role="line">bit 6</tspan></text>
     <text
        id="text4487-1-3-2-9-3-0-7-5-1-2-5-7-94"
-       y="261.63449"
+       y="260.04697"
        x="12.520033"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';fill:#7f7f7f;fill-opacity:1;stroke-width:0.264583px"
-         y="261.63449"
+         y="260.04697"
          x="12.520033"
          id="tspan4485-3-5-9-5-9-6-0-5-1-0-7-8-7"
          sodipodi:role="line">bit 7</tspan></text>
@@ -1171,81 +1178,81 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:92%;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:none;stroke:#e6e6e6;stroke-width:0.264583px;-inkscape-stroke:none;paint-order:fill markers stroke"
        x="21.08371"
-       y="240.41594"
+       y="240.18913"
        id="text95-9"><tspan
          sodipodi:role="line"
          id="tspan95-1"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Jost;-inkscape-font-specification:Jost;text-align:start;letter-spacing:0px;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.264583px"
          x="21.08371"
-         y="240.41594">C = Carry</tspan></text>
+         y="240.18913">C = Carry</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:92%;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:none;stroke:#e6e6e6;stroke-width:0.264583px;-inkscape-stroke:none;paint-order:fill markers stroke"
        x="21.08371"
-       y="243.95238"
+       y="243.49878"
        id="text95-9-7"><tspan
          sodipodi:role="line"
          id="tspan95-1-3"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Jost;-inkscape-font-specification:Jost;text-align:start;letter-spacing:0px;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.264583px"
          x="21.08371"
-         y="243.95238">Z = Zero</tspan></text>
+         y="243.49878">Z = Zero</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:92%;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:none;stroke:#e6e6e6;stroke-width:0.264583px;-inkscape-stroke:none;paint-order:fill markers stroke"
        x="21.08371"
-       y="247.4888"
+       y="246.80841"
        id="text95-9-2"><tspan
          sodipodi:role="line"
          id="tspan95-1-4"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Jost;-inkscape-font-specification:Jost;text-align:start;letter-spacing:0px;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.264583px"
          x="21.08371"
-         y="247.4888">I = Interrupt disable</tspan></text>
+         y="246.80841">I = Interrupt disable</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:92%;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:none;stroke:#e6e6e6;stroke-width:0.264583px;-inkscape-stroke:none;paint-order:fill markers stroke"
        x="21.08371"
-       y="251.02524"
+       y="250.11806"
        id="text95-9-1"><tspan
          sodipodi:role="line"
          id="tspan95-1-48"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Jost;-inkscape-font-specification:Jost;text-align:start;letter-spacing:0px;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.264583px"
          x="21.08371"
-         y="251.02524">D = Decimal mode</tspan></text>
+         y="250.11806">D = Decimal mode</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:92%;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:none;stroke:#e6e6e6;stroke-width:0.264583px;-inkscape-stroke:none;paint-order:fill markers stroke"
        x="21.08371"
-       y="254.56166"
+       y="253.42769"
        id="text95-9-3"><tspan
          sodipodi:role="line"
          id="tspan95-1-481"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Jost;-inkscape-font-specification:Jost;text-align:start;letter-spacing:0px;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.264583px"
          x="21.08371"
-         y="254.56166">B = Break<tspan
+         y="253.42769">B = Break<tspan
    style="font-size:65%;baseline-shift:super"
    id="tspan107">†</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:92%;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:none;stroke:#e6e6e6;stroke-width:0.264583px;-inkscape-stroke:none;paint-order:fill markers stroke"
        x="21.08371"
-       y="258.09805"
+       y="256.73734"
        id="text95-9-6"><tspan
          sodipodi:role="line"
          id="tspan95-1-2"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Jost;-inkscape-font-specification:Jost;text-align:start;letter-spacing:0px;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.264583px"
          x="21.08371"
-         y="258.09805">V = Overflow (sign changed)</tspan></text>
+         y="256.73734">V = Overflow (sign changed)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:92%;font-family:'Noto Sans Math';-inkscape-font-specification:'Noto Sans Math';text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:none;stroke:#e6e6e6;stroke-width:0.264583px;-inkscape-stroke:none;paint-order:fill markers stroke"
        x="21.08371"
-       y="261.63449"
+       y="260.04697"
        id="text95-9-21"><tspan
          sodipodi:role="line"
          id="tspan95-1-9"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Jost;-inkscape-font-specification:Jost;text-align:start;letter-spacing:0px;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.264583px"
          x="21.08371"
-         y="261.63449">N = Negative (bit 7 set)</tspan></text>
+         y="260.04697">N = Negative (bit 7 set)</tspan></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
