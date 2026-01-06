@@ -14,6 +14,6 @@ If you spot any errors, please let me know! Pull requests welcome.
 
 ## License
 
-(c) 2018 - 2024 Veikko Sariola
+(c) 2018 - 2026 Veikko Sariola
 
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
