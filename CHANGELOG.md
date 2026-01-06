@@ -3,6 +3,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## v0.3.1
+
+### Added
+- Added note explaining that "($00,X), ($00),Y, ($0000): MSB of address read from same page as LSB."
+- Explanation of the simultaneous BRK & IRQ/NMI in the BRK note: "BRK simultaneous with IRQ/NMI runs the ISR only once but with PC+2 and B=1 pushed."
+
+### Fixed
+- Minor fixes e.g. wrong dollar sign font, missing periods
+- Broken "Sources:" links
+
+### Changed
+- BRK note amd bottom left footnote font sizes to 6 pt
+
 ## v0.3.0
 
 ### Added
@@ -40,6 +53,7 @@ ones
 ### Added
 - Initial version
 
+[0.3.1]: https://github.com/vsariola/c64-cheat-sheets/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/vsariola/c64-cheat-sheets/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/vsariola/c64-cheat-sheets/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/vsariola/c64-cheat-sheets/releases/tag/v0.1.0
