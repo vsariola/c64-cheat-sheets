@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Added
 - Add note that branch operands are relative to PC+2.
+- Add note that PC values are pushed MSB-first and pulled LSB-first.
 
 ## v0.3.1
 
